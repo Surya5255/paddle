@@ -1,6 +1,6 @@
 import pygame
 import turtle
-#import winsound
+import winsound
 
 import os
 pygame.font.init()
@@ -21,7 +21,7 @@ clock = pygame.time.Clock()
 win = pygame.display.set_mode((500,500))
 pygame.display.set_caption('BALL')
 
-BACKGROUND = pygame.image.load(os.path.join("images","earth.jpg")).convert()
+BACKGROUND = pygame.image.load(os.path.join("images","way.jpg")).convert()
 
 play= (250, 140, 230, 40)
 
